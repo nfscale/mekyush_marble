@@ -1,0 +1,414 @@
+FAILED
+App mekyush_mable not found
+Connected, tailing logs for app mekyush_marble in org teamrandom / space invxchange as sanfscale@gmail.com...
+
+2016-12-09T15:36:40.56+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:36:50.58+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:37:00.61+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:37:10.69+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:37:20.66+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:37:30.67+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:37:40.68+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:37:50.73+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:38:00.73+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:38:10.75+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:38:20.77+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:38:30.78+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:38:40.82+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:38:50.81+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:39:00.98+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:39:10.84+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:39:19.39+0530 [App/0]      OUT ------------------------------------------ incoming request ------------------------------------------
+2016-12-09T15:39:19.39+0530 [App/0]      OUT New GET request for /
+2016-12-09T15:39:19.39+0530 [RTR/0]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:09:19.369 +0000] "GET / HTTP/1.1" 302 0 62 "https://console.au-syd.bluemix.net/dashboard/cf-apps" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.105:16622 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:3980dc5a-1997-4783-6473-9a4e54c60b80 response_time:0.029731798 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"3125934063"
+2016-12-09T15:39:19.40+0530 [App/0]      OUT [90mGET / [36m302 [90m21.983 ms - 62[0m
+2016-12-09T15:39:19.58+0530 [App/0]      OUT ------------------------------------------ incoming request ------------------------------------------
+2016-12-09T15:39:19.58+0530 [App/0]      OUT New GET request for /p1
+2016-12-09T15:39:20.44+0530 [RTR/0]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:09:19.566 +0000] "GET /p1 HTTP/1.1" 200 0 2804 "https://console.au-syd.bluemix.net/dashboard/cf-apps" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.105:16634 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:a8ef6d9f-0faa-47c2-789f-3a300154817b response_time:0.874563263 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"422929043"
+2016-12-09T15:39:20.44+0530 [App/0]      OUT [90mGET /p1 [32m200 [90m872.425 ms - -[0m
+2016-12-09T15:39:20.65+0530 [RTR/3]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:09:20.637 +0000] "GET /css/font-awesome-4.5.0/css/font-awesome.min.css HTTP/1.1" 200 0 6245 "https://mekyush-marble.au-syd.mybluemix.net/p1" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.106:59523 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:ec2f51e6-d1a4-4dac-4d45-f31241db11af response_time:0.022101672 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"473307513"
+2016-12-09T15:39:20.66+0530 [App/0]      OUT [90mGET /css/font-awesome-4.5.0/css/font-awesome.min.css [32m200 [90m17.505 ms - -[0m
+2016-12-09T15:39:21.02+0530 [RTR/0]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:09:21.007 +0000] "GET /css/main.min.css?v=5c5213ec16de93e801c4aaf7a7eb956b HTTP/1.1" 200 0 3083 "https://mekyush-marble.au-syd.mybluemix.net/p1" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.105:16659 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:6a216958-3662-4318-59a5-8b14a414b3b6 response_time:0.021566873 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"3125948559"
+2016-12-09T15:39:21.03+0530 [App/0]      OUT [90mGET /css/main.min.css?v=5c5213ec16de93e801c4aaf7a7eb956b [32m200 [90m15.044 ms - -[0m
+2016-12-09T15:39:21.15+0530 [RTR/2]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:09:21.135 +0000] "GET /js/util/jquery-ui-1.11.4/jquery-ui.min.js HTTP/1.1" 200 0 18018 "https://mekyush-marble.au-syd.mybluemix.net/p1" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.104:27930 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:2a94e30c-e789-4450-7dec-be01ebb45381 response_time:0.017341047 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"1985917223"
+2016-12-09T15:39:21.15+0530 [App/0]      OUT [90mGET /js/util/jquery-ui-1.11.4/jquery-ui.min.js [32m200 [90m14.647 ms - -[0m
+2016-12-09T15:39:21.15+0530 [RTR/3]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:09:21.151 +0000] "GET /js/util/jquery.ui.touch-punch.min.js HTTP/1.1" 200 0 601 "https://mekyush-marble.au-syd.mybluemix.net/p1" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.106:59523 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:5060fa52-c474-43e7-436a-e66944f5660f response_time:0.007024201 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"3125948655"
+2016-12-09T15:39:21.15+0530 [App/0]      OUT [90mGET /js/util/jquery.ui.touch-punch.min.js [32m200 [90m3.787 ms - -[0m
+2016-12-09T15:39:21.17+0530 [RTR/3]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:09:21.137 +0000] "GET /js/util/jquery-1.11.1.min.js HTTP/1.1" 200 0 33276 "https://mekyush-marble.au-syd.mybluemix.net/p1" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.102:15665 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:079e65fc-aa55-4a79-6b0f-adca7433e119 response_time:0.036937719 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"3116794303"
+2016-12-09T15:39:21.17+0530 [RTR/2]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:09:21.169 +0000] "GET /js/funk.js HTTP/1.1" 200 0 1050 "https://mekyush-marble.au-syd.mybluemix.net/p1" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.102:53697 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:a7a8c39f-b826-4658-5371-0b58e9c6e5fa response_time:0.006375777 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"3116794319"
+2016-12-09T15:39:21.17+0530 [App/0]      OUT [90mGET /js/util/jquery-1.11.1.min.js [32m200 [90m33.626 ms - -[0m
+2016-12-09T15:39:21.17+0530 [RTR/0]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:09:21.174 +0000] "GET /js/blockchain.js HTTP/1.1" 200 0 1443 "https://mekyush-marble.au-syd.mybluemix.net/p1" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.103:44462 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:22900184-d613-4462-588d-dfcff028b468 response_time:0.004382406 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"1985917271"
+2016-12-09T15:39:21.17+0530 [App/0]      OUT [90mGET /js/funk.js [32m200 [90m3.836 ms - -[0m
+2016-12-09T15:39:21.18+0530 [App/0]      OUT [90mGET /js/blockchain.js [32m200 [90m2.043 ms - -[0m
+2016-12-09T15:39:21.20+0530 [RTR/1]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:09:21.199 +0000] "GET /js/part1.js?v=e96c1061ac5b604e8b384ea4a526940d HTTP/1.1" 200 0 2422 "https://mekyush-marble.au-syd.mybluemix.net/p1" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.105:52768 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:1c9f627e-26ec-4981-404a-1c72161b3266 response_time:0.008485285 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"1258073585"
+2016-12-09T15:39:21.20+0530 [App/0]      OUT [90mGET /js/part1.js?v=e96c1061ac5b604e8b384ea4a526940d [32m200 [90m5.477 ms - -[0m
+2016-12-09T15:39:21.29+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:39:21.88+0530 [RTR/3]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:09:21.857 +0000] "GET /css/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1" 200 0 66624 "https://mekyush-marble.au-syd.mybluemix.net/css/font-awesome-4.5.0/css/font-awesome.min.css" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.102:15665 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:a2bb17f3-bd70-4252-45e2-1b3d457a9883 response_time:0.027895749 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"434110099"
+2016-12-09T15:39:21.88+0530 [App/0]      OUT [90mGET /css/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 [32m200 [90m14.254 ms - 66624[0m
+2016-12-09T15:39:22.43+0530 [RTR/2]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:09:22.428 +0000] "GET /imgs/favicon.ico HTTP/1.1" 200 0 318 "https://mekyush-marble.au-syd.mybluemix.net/p1" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.102:53662 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:fd3d304f-2605-4d82-7fc7-6de39e3d3c64 response_time:0.005113018 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"2471181165"
+2016-12-09T15:39:22.43+0530 [App/0]      OUT [90mGET /imgs/favicon.ico [32m200 [90m2.280 ms - 318[0m
+2016-12-09T15:39:31.30+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:39:41.31+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:39:51.33+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:40:01.35+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:40:11.36+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:40:21.37+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:40:23.67+0530 [App/0]      OUT ------------------------------------------ incoming request ------------------------------------------
+2016-12-09T15:40:23.67+0530 [App/0]      OUT New GET request for /p23
+2016-12-09T15:40:23.67+0530 [App/0]      OUT Error Handeler - /p23
+2016-12-09T15:40:23.91+0530 [RTR/3]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:10:23.665 +0000] "GET /p23 HTTP/1.1" 404 0 1530 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.106:59522 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:5079cedf-f445-4ed5-7973-895ae26c104b response_time:0.249473754 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"2509228269"
+2016-12-09T15:40:23.91+0530 [App/0]      OUT [90mGET /p23 [33m404 [90m246.765 ms - -[0m
+2016-12-09T15:40:24.31+0530 [App/0]      OUT [90mGET /css/font-awesome-4.5.0/css/font-awesome.min.css [32m200 [90m8.501 ms - -[0m
+2016-12-09T15:40:24.31+0530 [RTR/3]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:10:24.095 +0000] "GET /css/font-awesome-4.5.0/css/font-awesome.min.css HTTP/1.1" 200 0 6245 "https://mekyush-marble.au-syd.mybluemix.net/p23" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.106:59455 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:997788ab-e221-4206-4fe2-dd0dbe58f99e response_time:0.21473948 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"1999709751"
+2016-12-09T15:40:24.60+0530 [RTR/3]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:10:24.603 +0000] "GET /css/main.min.css?v=undefined HTTP/1.1" 200 0 3083 "https://mekyush-marble.au-syd.mybluemix.net/p23" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.106:59464 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:0ef7b084-ca5b-45f8-66dd-2d5b331d7696 response_time:0.004376131 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"2509228813"
+2016-12-09T15:40:24.60+0530 [App/0]      OUT [90mGET /css/main.min.css?v=undefined [32m200 [90m1.949 ms - -[0m
+2016-12-09T15:40:24.62+0530 [RTR/0]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:10:24.608 +0000] "GET /js/util/jquery-ui-1.11.4/jquery-ui.min.js HTTP/1.1" 200 0 18018 "https://mekyush-marble.au-syd.mybluemix.net/p23" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.103:44427 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:440544f2-b82d-4817-6a36-6aff9ffba79f response_time:0.012369148 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"3135225295"
+2016-12-09T15:40:24.62+0530 [App/0]      OUT [90mGET /js/util/jquery-ui-1.11.4/jquery-ui.min.js [32m200 [90m10.495 ms - -[0m
+2016-12-09T15:40:24.64+0530 [RTR/1]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:10:24.627 +0000] "GET /js/util/jquery.ui.touch-punch.min.js HTTP/1.1" 200 0 601 "https://mekyush-marble.au-syd.mybluemix.net/p23" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.101:20742 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:bdf3d309-97ed-4f9b-6654-8f60035f2e25 response_time:0.01845555 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"3116996783"
+2016-12-09T15:40:24.64+0530 [App/0]      OUT [90mGET /js/util/jquery.ui.touch-punch.min.js [32m200 [90m14.658 ms - -[0m
+2016-12-09T15:40:24.65+0530 [RTR/0]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:10:24.631 +0000] "GET /js/blockchain.js HTTP/1.1" 200 0 1443 "https://mekyush-marble.au-syd.mybluemix.net/p23" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.103:44467 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:9fe0d137-048c-45f6-7e7f-4f15ff7bc014 response_time:0.018396846 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"3135225279"
+2016-12-09T15:40:24.65+0530 [RTR/1]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:10:24.636 +0000] "GET /js/funk.js HTTP/1.1" 200 0 1050 "https://mekyush-marble.au-syd.mybluemix.net/p23" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.105:53035 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:818dd320-5490-43af-4393-486978a332de response_time:0.017664237 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"2509228845"
+2016-12-09T15:40:24.65+0530 [App/0]      OUT [90mGET /js/blockchain.js [32m200 [90m14.084 ms - -[0m
+2016-12-09T15:40:24.65+0530 [RTR/2]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:10:24.625 +0000] "GET /js/util/jquery-1.11.1.min.js HTTP/1.1" 200 0 33276 "https://mekyush-marble.au-syd.mybluemix.net/p23" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.106:22471 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:c38fe7f1-f553-4f5b-6ffa-804aa9f15776 response_time:0.028380031 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"2509228829"
+2016-12-09T15:40:24.65+0530 [App/0]      OUT [90mGET /js/funk.js [32m200 [90m14.563 ms - -[0m
+2016-12-09T15:40:24.65+0530 [App/0]      OUT [90mGET /js/util/jquery-1.11.1.min.js [32m200 [90m26.301 ms - -[0m
+2016-12-09T15:40:26.58+0530 [App/0]      OUT ------------------------------------------ incoming request ------------------------------------------
+2016-12-09T15:40:26.58+0530 [App/0]      OUT New GET request for /p2
+2016-12-09T15:40:27.39+0530 [RTR/3]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:10:26.578 +0000] "GET /p2 HTTP/1.1" 200 0 3588 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.104:17381 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:f8dea6dd-93d3-40f4-5c48-bb47f3d55cda response_time:0.815569702 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"1986071015"
+2016-12-09T15:40:27.39+0530 [App/0]      OUT [90mGET /p2 [32m200 [90m813.348 ms - -[0m
+2016-12-09T15:40:27.64+0530 [RTR/1]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:10:27.641 +0000] "GET /css/main.min.css?v=5c5213ec16de93e801c4aaf7a7eb956b HTTP/1.1" 200 0 3083 "https://mekyush-marble.au-syd.mybluemix.net/p2" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.103:51902 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:d886a82a-8fe8-4f09-7621-9750e28b4980 response_time:0.007077545 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"1259387297"
+2016-12-09T15:40:27.65+0530 [App/0]      OUT [90mGET /css/main.min.css?v=5c5213ec16de93e801c4aaf7a7eb956b [32m200 [90m3.811 ms - -[0m
+2016-12-09T15:40:27.81+0530 [App/0]      OUT [90mGET /js/part2.js?v=e96c1061ac5b604e8b384ea4a526940d [32m200 [90m2.635 ms - -[0m
+2016-12-09T15:40:27.81+0530 [RTR/1]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:10:27.814 +0000] "GET /js/part2.js?v=e96c1061ac5b604e8b384ea4a526940d HTTP/1.1" 200 0 4724 "https://mekyush-marble.au-syd.mybluemix.net/p2" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.103:52323 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:2e78cab0-e5bc-462e-7649-49c857921a93 response_time:0.004526588 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"2549851837"
+2016-12-09T15:40:28.07+0530 [RTR/2]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:10:28.068 +0000] "GET /js/blockchain.js?v=e96c1061ac5b604e8b384ea4a526940d HTTP/1.1" 200 0 1443 "https://mekyush-marble.au-syd.mybluemix.net/p2" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.104:28021 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:d968f2f6-d2c7-4fd1-4287-20e12418798d response_time:0.004823321 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"1986071895"
+2016-12-09T15:40:28.07+0530 [App/0]      OUT [90mGET /js/blockchain.js?v=e96c1061ac5b604e8b384ea4a526940d [32m200 [90m2.168 ms - -[0m
+2016-12-09T15:40:28.47+0530 [RTR/2]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:10:28.472 +0000] "GET /css/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1" 200 0 66624 "https://mekyush-marble.au-syd.mybluemix.net/css/font-awesome-4.5.0/css/font-awesome.min.css" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.104:28007 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:8c94da52-0ff9-44a0-68b2-2720fcbf754c response_time:0.006523801 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"470381049"
+2016-12-09T15:40:28.48+0530 [App/0]      OUT [90mGET /css/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 [32m200 [90m4.108 ms - 66624[0m
+2016-12-09T15:40:31.74+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:40:41.77+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:40:51.79+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:41:01.80+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:41:11.98+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:41:21.84+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:41:31.86+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:41:41.89+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:41:51.92+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:42:03.58+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:42:11.95+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:42:21.97+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:42:31.97+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:42:42.00+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:42:52.01+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:43:02.24+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:43:12.05+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:43:22.06+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:43:32.09+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:43:42.10+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:43:52.12+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:44:02.30+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:44:12.13+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:44:22.16+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:44:32.33+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:44:42.19+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:44:52.33+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:45:02.55+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:45:12.24+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:45:22.25+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:45:32.27+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:45:42.28+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:45:52.32+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:46:02.49+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:46:12.34+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:46:22.36+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:46:32.37+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:46:42.47+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:46:52.41+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:47:02.42+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:47:12.44+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:47:22.46+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:47:32.47+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:47:42.00+0530 [App/0]      OUT ------------------------------------------ incoming request ------------------------------------------
+2016-12-09T15:47:42.00+0530 [App/0]      OUT New GET request for /p1/home
+2016-12-09T15:47:42.01+0530 [RTR/3]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:17:42.002 +0000] "GET /p1/home HTTP/1.1" 200 0 2804 "https://console.au-syd.bluemix.net/dashboard/cf-apps" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.104:17552 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:1bb89e73-687d-43a8-7306-05847f890b44 response_time:0.015212663 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"1987307927"
+2016-12-09T15:47:42.01+0530 [App/0]      OUT [90mGET /p1/home [32m200 [90m12.954 ms - -[0m
+2016-12-09T15:47:42.11+0530 [RTR/2]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:17:42.113 +0000] "GET /p1/home HTTP/1.1" 200 0 2804 "https://console.au-syd.bluemix.net/dashboard/cf-apps" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.102:54087 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:84af1036-36e4-4739-4eb2-97aeb4334953 response_time:0.00595297 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"3118182287"
+2016-12-09T15:47:42.11+0530 [App/0]      OUT ------------------------------------------ incoming request ------------------------------------------
+2016-12-09T15:47:42.12+0530 [App/0]      OUT New GET request for /p1/home
+2016-12-09T15:47:42.12+0530 [App/0]      OUT [90mGET /p1/home [32m200 [90m4.145 ms - -[0m
+2016-12-09T15:47:42.29+0530 [App/0]      OUT ------------------------------------------ incoming request ------------------------------------------
+2016-12-09T15:47:42.29+0530 [App/0]      OUT New GET request for /p1/home
+2016-12-09T15:47:42.29+0530 [RTR/3]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:17:42.286 +0000] "GET /p1/home HTTP/1.1" 200 0 2804 "https://console.au-syd.bluemix.net/dashboard/cf-apps" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.104:17670 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:3e7ba387-d93c-4b67-493e-71859f4934fe response_time:0.011844283 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"1987307959"
+2016-12-09T15:47:42.29+0530 [App/0]      OUT [90mGET /p1/home [32m200 [90m9.576 ms - -[0m
+2016-12-09T15:47:42.49+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:47:42.55+0530 [RTR/3]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:17:42.544 +0000] "GET /css/main.min.css?v=5c5213ec16de93e801c4aaf7a7eb956b HTTP/1.1" 200 0 3083 "https://mekyush-marble.au-syd.mybluemix.net/p1/home" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.102:15937 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:6164dd95-6090-4d13-6d76-6577c9bf75d5 response_time:0.011439481 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"3118182303"
+2016-12-09T15:47:42.55+0530 [App/0]      OUT [90mGET /css/main.min.css?v=5c5213ec16de93e801c4aaf7a7eb956b [32m200 [90m9.473 ms - -[0m
+2016-12-09T15:47:42.57+0530 [RTR/2]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:17:42.542 +0000] "GET /css/font-awesome-4.5.0/css/font-awesome.min.css HTTP/1.1" 200 0 6245 "https://mekyush-marble.au-syd.mybluemix.net/p1/home" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.104:28354 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:6257832e-909d-4484-43dd-454ee35818f5 response_time:0.034885922 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"1260019569"
+2016-12-09T15:47:42.57+0530 [RTR/1]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:17:42.544 +0000] "GET /js/util/jquery-ui-1.11.4/jquery-ui.min.js HTTP/1.1" 200 0 18018 "https://mekyush-marble.au-syd.mybluemix.net/p1/home" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.105:53333 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:5e16aec9-eb76-4d69-5dd1-7c5203035a38 response_time:0.035178569 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"3127111935"
+2016-12-09T15:47:42.58+0530 [App/0]      OUT [90mGET /js/util/jquery-ui-1.11.4/jquery-ui.min.js [32m200 [90m31.740 ms - -[0m
+2016-12-09T15:47:42.58+0530 [RTR/3]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:17:42.545 +0000] "GET /js/util/jquery-1.11.1.min.js HTTP/1.1" 200 0 33276 "https://mekyush-marble.au-syd.mybluemix.net/p1/home" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.106:59692 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:f0b997ee-af84-4a96-718b-d0ed6e8e975b response_time:0.035955943 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"3127111967"
+2016-12-09T15:47:42.58+0530 [App/0]      OUT [90mGET /css/font-awesome-4.5.0/css/font-awesome.min.css [32m200 [90m27.643 ms - -[0m
+2016-12-09T15:47:42.58+0530 [App/0]      OUT [90mGET /js/util/jquery-1.11.1.min.js [32m200 [90m33.479 ms - -[0m
+2016-12-09T15:47:42.73+0530 [RTR/0]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:17:42.725 +0000] "GET /js/util/jquery.ui.touch-punch.min.js HTTP/1.1" 200 0 601 "https://mekyush-marble.au-syd.mybluemix.net/p1/home" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.101:16013 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:2f2834c2-5517-49e7-554a-242e4986ee16 response_time:0.004209024 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"434294995"
+2016-12-09T15:47:42.73+0530 [App/0]      OUT [90mGET /js/util/jquery.ui.touch-punch.min.js [32m200 [90m2.142 ms - -[0m
+2016-12-09T15:47:43.03+0530 [RTR/1]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:17:43.027 +0000] "GET /js/funk.js HTTP/1.1" 200 0 1050 "https://mekyush-marble.au-syd.mybluemix.net/p1/home" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.105:53288 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:d024a28b-38f9-4d09-46e6-2a168c34ff49 response_time:0.004830154 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"3127112735"
+2016-12-09T15:47:43.03+0530 [App/0]      OUT [90mGET /js/funk.js [32m200 [90m2.957 ms - -[0m
+2016-12-09T15:47:43.13+0530 [RTR/1]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:17:43.127 +0000] "GET /js/blockchain.js HTTP/1.1" 200 0 1443 "https://mekyush-marble.au-syd.mybluemix.net/p1/home" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.105:53335 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:298123b4-7654-4544-45eb-e6f2805667c5 response_time:0.0070499 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"1258844049"
+2016-12-09T15:47:43.13+0530 [App/0]      OUT [90mGET /js/blockchain.js [32m200 [90m2.002 ms - -[0m
+2016-12-09T15:47:43.13+0530 [RTR/3]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:17:43.133 +0000] "GET /js/part1.js?v=e96c1061ac5b604e8b384ea4a526940d HTTP/1.1" 200 0 2422 "https://mekyush-marble.au-syd.mybluemix.net/p1/home" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.102:15780 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:e06d1aa4-ebd6-4d95-5260-b1ed47d853a3 response_time:0.005343462 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"3118190847"
+2016-12-09T15:47:43.14+0530 [App/0]      OUT [90mGET /js/part1.js?v=e96c1061ac5b604e8b384ea4a526940d [32m200 [90m2.877 ms - -[0m
+2016-12-09T15:47:43.42+0530 [App/0]      OUT [90mGET /css/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 [32m200 [90m6.018 ms - 66624[0m
+2016-12-09T15:47:43.42+0530 [RTR/3]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:17:43.413 +0000] "GET /css/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1" 200 0 66624 "https://mekyush-marble.au-syd.mybluemix.net/css/font-awesome-4.5.0/css/font-awesome.min.css" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.106:59690 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:8da9f8b7-9d9a-479c-4e9a-d68504f4c216 response_time:0.009583509 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"1258844465"
+2016-12-09T15:47:44.23+0530 [RTR/2]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:17:44.231 +0000] "GET /imgs/favicon.ico HTTP/1.1" 200 0 318 "https://mekyush-marble.au-syd.mybluemix.net/p1/home" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.106:22644 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:73cbdb5b-424f-4848-7c91-1485b1fc349b response_time:0.003227098 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"2000795687"
+2016-12-09T15:47:44.23+0530 [App/0]      OUT [90mGET /imgs/favicon.ico [32m200 [90m1.242 ms - 318[0m
+2016-12-09T15:47:48.82+0530 [App/0]      OUT ------------------------------------------ incoming request ------------------------------------------
+2016-12-09T15:47:48.82+0530 [App/0]      OUT New GET request for /
+2016-12-09T15:47:48.82+0530 [RTR/1]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:17:48.815 +0000] "GET / HTTP/1.1" 302 0 62 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.105:53317 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:e446318c-31b5-4e54-7014-71e2f522b563 response_time:0.007174863 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"3127123663"
+2016-12-09T15:47:48.82+0530 [App/0]      OUT [90mGET / [36m302 [90m4.100 ms - 62[0m
+2016-12-09T15:47:48.99+0530 [RTR/0]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:17:48.990 +0000] "GET /p1 HTTP/1.1" 304 0 0 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.105:16946 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:f5df59d9-662e-42e5-6ded-bd37cbb5c379 response_time:0.005084879 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"1258849889"
+2016-12-09T15:47:48.99+0530 [App/0]      OUT ------------------------------------------ incoming request ------------------------------------------
+2016-12-09T15:47:48.99+0530 [App/0]      OUT New GET request for /p1
+2016-12-09T15:47:48.99+0530 [App/0]      OUT [90mGET /p1 [36m304 [90m3.202 ms - -[0m
+2016-12-09T15:47:52.51+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:48:02.53+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:48:12.54+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:48:22.57+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:48:32.83+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:48:35.58+0530 [API/2]      OUT Updated app with guid 61a16d09-7890-4b68-83a4-95ecce80f9cf ({"state"=>"STOPPED"})
+2016-12-09T15:48:35.90+0530 [API/0]      OUT Updated app with guid 61a16d09-7890-4b68-83a4-95ecce80f9cf ({"state"=>"STARTED"})
+2016-12-09T15:48:35.90+0530 [DEA/93]     OUT Starting app instance (index 0) with guid 61a16d09-7890-4b68-83a4-95ecce80f9cf
+2016-12-09T15:48:36.67+0530 [DEA/141]    OUT Stopping app instance (index 0) with guid 61a16d09-7890-4b68-83a4-95ecce80f9cf
+2016-12-09T15:48:36.67+0530 [DEA/141]    OUT Stopped app instance (index 0) with guid 61a16d09-7890-4b68-83a4-95ecce80f9cf
+2016-12-09T15:48:46.19+0530 [App/0]      ERR     Warning: connect.session() MemoryStore is not
+2016-12-09T15:48:46.19+0530 [App/0]      ERR designed for a production environment, as it will leak
+2016-12-09T15:48:46.19+0530 [App/0]      ERR memory, and will not scale past a single process.
+2016-12-09T15:48:46.19+0530 [App/0]      OUT     cache busting hash js e96c1061ac5b604e8b384ea4a526940d css 5c5213ec16de93e801c4aaf7a7eb956b
+2016-12-09T15:48:46.21+0530 [App/0]      OUT ------------------------------------------ Server Up - 0.0.0.0:61488 ------------------------------------------
+2016-12-09T15:48:46.21+0530 [App/0]      OUT Running using Developer settings
+2016-12-09T15:48:46.21+0530 [App/0]      OUT - Tracking Deployment
+2016-12-09T15:48:46.51+0530 [App/0]      OUT loading hardcoded peers
+2016-12-09T15:48:46.51+0530 [App/0]      OUT loading hardcoded users
+2016-12-09T15:48:46.52+0530 [App/0]      OUT [!] looks like you are in bluemix, I am going to clear out the deploy_name so that it deploys new cc.
+2016-12-09T15:48:46.52+0530 [App/0]      OUT [!] hope that is ok budddy
+2016-12-09T15:48:46.52+0530 [App/0]      OUT [ibc-js] Peer:  e74b1b1d9428450d850f880071441b6e-vp3-e74b1b1d9428...:5003
+2016-12-09T15:48:46.52+0530 [App/0]      OUT [ibc-js] Registering  e74b1b1d9428450d850f880071441b6e-vp3-e74b1b1d9428...:5003  w/enrollId - user_type1_0
+2016-12-09T15:48:47.35+0530 [App/0]      OUT [ibc-js] Registration success x1 : user_type1_0
+2016-12-09T15:48:47.36+0530 [App/0]      OUT [ibc-js] removing temp dir
+2016-12-09T15:48:47.36+0530 [App/0]      OUT [ibc-js] Downloading zip
+2016-12-09T15:48:47.50+0530 [App/0]      OUT Uploaded stats { ok: true }
+2016-12-09T15:48:48.67+0530 [App/0]      OUT redirect... https://codeload.github.com/IBM-Blockchain/marbles/zip/v2.0
+2016-12-09T15:48:48.67+0530 [App/0]      OUT [ibc-js] Downloading zip
+2016-12-09T15:48:52.35+0530 [App/0]      OUT [ibc-js] Unzipping zip
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] Unzip done
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] Scanning files [ 'marbles_chaincode.go' ]
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] Parsing file for shim version
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] Found shim version: github.com/hyperledger/fabric/core/chaincode/shim
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] Parsing file for invoke functions - marbles_chaincode.go
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] Found cc invoke function:  init
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] Found cc invoke function:  delete
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] Found cc invoke function:  write
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] Found cc invoke function:  init_marble
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] Found cc invoke function:  set_user
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] Found cc invoke function:  open_trade
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] Found cc invoke function:  perform_trade
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] Found cc invoke function:  remove_trade
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] Parsing file for query functions - marbles_chaincode.go
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] Found cc query function:  read
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] load_chaincode() finished
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] Deploy Chaincode - Starting
+2016-12-09T15:48:52.72+0530 [App/0]      OUT [ibc-js] 	function: init , arg: [ '99' ]
+2016-12-09T15:48:52.72+0530 [App/0]      OUT 	 Waiting...
+2016-12-09T15:49:00.85+0530 [App/0]      OUT 	 deploy success [waiting another 30 seconds]
+2016-12-09T15:49:00.85+0530 [App/0]      OUT 	 16e655c0fce6a9882896d3d6d11f7dcd4f45027fd4764004440ff1e61340910a9d67685c4bb723272a497f3cf428e6cf6b009618612220e1471e03b6c0aa76cb 
+2016-12-09T15:49:11.08+0530 [App/0]      OUT ------------------------------------------ incoming request ------------------------------------------
+2016-12-09T15:49:11.08+0530 [App/0]      OUT New GET request for /p1
+2016-12-09T15:49:11.96+0530 [App/0]      OUT [90mGET /p1 [32m200 [90m897.883 ms - -[0m
+2016-12-09T15:49:11.96+0530 [RTR/0]      OUT mekyush-marble.au-syd.mybluemix.net - [09/12/2016:10:19:11.064 +0000] "GET /p1 HTTP/1.1" 200 0 2806 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36" 168.1.55.105:17004 x_forwarded_for:"103.228.76.172" x_forwarded_proto:"https" vcap_request_id:3ba737de-d099-4999-6d7a-7e6f460d3402 response_time:0.903137664 app_id:61a16d09-7890-4b68-83a4-95ecce80f9cf x_global_transaction_id:"2511223245"
+2016-12-09T15:49:30.86+0530 [App/0]      OUT [ibc-js] Deploy Chaincode - Complete
+2016-12-09T15:49:30.86+0530 [App/0]      OUT [preflight check] 1 : testing if chaincode is ready
+2016-12-09T15:49:31.78+0530 [App/0]      OUT [ibc-js] read  - success: { jsonrpc: '2.0',
+2016-12-09T15:49:31.78+0530 [App/0]      OUT   result: { status: 'OK', message: 'null' },
+2016-12-09T15:49:31.78+0530 [App/0]      OUT   id: 1481278770868 }
+2016-12-09T15:49:31.78+0530 [App/0]      OUT [preflight check] 1 : success
+2016-12-09T15:49:31.78+0530 [App/0]      OUT ------------------------------------------ Websocket Up ------------------------------------------
+2016-12-09T15:49:33.10+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:49:33.10+0530 [App/0]      OUT [ibc-js] New block! 3
+2016-12-09T15:49:33.10+0530 [App/0]      OUT hey new block, lets refresh and broadcast to all 2
+2016-12-09T15:49:33.93+0530 [App/0]      OUT [ibc-js] Block Stats  2 - success
+2016-12-09T15:49:34.01+0530 [App/0]      OUT [ibc-js] read  - success: { jsonrpc: '2.0',
+2016-12-09T15:49:34.01+0530 [App/0]      OUT   result: { status: 'OK', message: 'null' },
+2016-12-09T15:49:34.01+0530 [App/0]      OUT   id: 1481278773106 }
+2016-12-09T15:49:34.02+0530 [App/0]      OUT [ibc-js] read  - success: { jsonrpc: '2.0',
+2016-12-09T15:49:34.02+0530 [App/0]      OUT   result: { status: 'OK', message: '{"open_trades":null}' },
+2016-12-09T15:49:34.02+0530 [App/0]      OUT   id: 1481278773106 }
+2016-12-09T15:49:43.11+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:49:53.13+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:50:03.15+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:50:13.16+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:50:23.18+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:50:33.40+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:50:43.22+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:50:53.24+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:51:03.26+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:51:13.28+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:51:23.30+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:51:33.34+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:51:43.35+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:51:53.37+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:52:03.38+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:52:13.40+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:52:23.52+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:52:33.44+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:52:43.46+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:52:53.48+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:53:03.50+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:53:13.54+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:53:23.56+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:53:33.59+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:53:43.59+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:53:53.61+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:54:03.62+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:54:13.72+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:54:23.71+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:54:33.73+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:54:43.75+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:54:53.78+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:55:03.80+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:55:14.12+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:55:23.85+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:55:34.12+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:55:43.89+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:55:53.90+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:56:03.92+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:56:14.16+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:56:23.95+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:56:33.97+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:56:43.99+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:56:54.02+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:57:04.04+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:57:14.05+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:57:24.07+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:57:34.08+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:57:44.11+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:57:54.13+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:58:04.37+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:58:14.26+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:58:24.18+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:58:34.26+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:58:44.30+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:58:54.27+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:59:04.29+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:59:14.31+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:59:24.32+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:59:34.34+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:59:44.35+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T15:59:54.60+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:00:04.40+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:00:14.41+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:00:24.43+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:00:34.50+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:00:44.47+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:00:54.49+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:01:04.50+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:01:14.52+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:01:24.52+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:01:34.53+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:01:44.80+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:01:54.56+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:02:04.58+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:02:14.62+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:02:24.61+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:02:34.63+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:02:44.65+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:02:54.67+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:03:04.69+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:03:14.69+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:03:24.72+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:03:35.02+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:03:44.75+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:03:54.77+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:04:04.78+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:04:14.80+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:04:24.82+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:04:34.86+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:04:44.88+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:04:54.90+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:05:04.91+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:05:14.92+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:05:25.17+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:05:34.95+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:05:44.97+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:05:54.98+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:06:05.00+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:06:15.01+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:06:25.03+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:06:35.05+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:06:45.07+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:06:55.08+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:07:05.14+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:07:15.36+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:07:25.18+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:07:35.21+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:07:45.22+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:07:55.25+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:08:05.75+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:08:15.35+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:08:25.36+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:08:35.80+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:08:45.44+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:08:55.48+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:09:05.67+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:09:15.58+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:09:25.59+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:09:35.65+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:09:45.72+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:09:55.73+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:10:05.80+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:10:15.82+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:10:25.86+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:10:35.87+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:10:45.95+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:10:56.01+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:11:06.02+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:11:16.09+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:11:26.11+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:11:36.12+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:11:46.16+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:11:56.18+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:12:06.20+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:12:16.23+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:12:26.25+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:12:36.27+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:12:46.51+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:12:56.29+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:13:06.31+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:13:16.32+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:13:26.81+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:13:36.37+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:13:46.39+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:13:56.44+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:14:06.45+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:14:16.47+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:14:26.48+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:14:36.70+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:14:46.50+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:14:56.51+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:15:06.53+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:15:16.55+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:15:26.56+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:15:36.59+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:15:46.60+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:15:56.61+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:16:06.63+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:16:16.65+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:16:26.82+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:16:36.70+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:16:46.72+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:16:56.73+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:17:06.76+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:17:16.77+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:17:26.80+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:17:36.81+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:17:46.83+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+2016-12-09T16:17:56.84+0530 [App/0]      OUT [ibc-js] Chain Stats - success
+FAILED
+websocket: close 1006 (abnormal closure): unexpected EOF
