@@ -1,0 +1,105 @@
+extends ./template/layout.jade
+	
+	
+// --------------- Header -------------- //
+block custom_header
+	script(src='/js/part3.js?v=#{bag.jshash}')
+	script(type='text/javascript').
+		var esmData = {};
+		$(document).ready(function(){
+			esmData.invoices = [];
+			
+			$("button.toggleButton").each(function(index){
+				$(this).on("click", function(e){
+					e.preventDefault();
+					var parent = $(this).attr('parent');
+					var show = $(this).attr('show');
+					toggleSubPanels(parent,show);
+				});
+			});
+			
+			$("#btnSubmitInvoice").on('click', function(e){
+				esmData.invoices.push({
+					vendorid: $('[name="invoice_vendorId"]').val(),
+					customerid: $('[name="invoice_customerID"]').val(),
+					invoicenumber: $('[name="invoice_invoiceNumber"]').val(),
+					invoiceamount: $('[name="invoice_invoiceAmount"]').val(),
+					currency: $('[name="invoice_currency"]').val(),
+					material: $('[name="invoice_material"]').val(),
+					quantity: $('[name="invoice_quantity"]').val(),
+					tradeid: $('[name="invoice_traderId"]').val(),
+					paymentdate: $('[name="invoice_paymentDate"]').val(),
+					status: $('[name="invoice_status"]').val(),
+					newpaymentdate: $('[name="invoice_newPaymentDate"]').val()
+				});
+				toggleSubPanels('invoice','list', function(){
+					renderInvoicesInTable(esmData.invoices);
+				});
+			});
+		});
+		function renderInvoicesInTable(invoices){
+			var tbody = $('#invoicesList');
+			tbody.empty();
+			if(invoices.length > 0){
+				invoices.map(inv => {
+					var tr = "<tr style='border-bottom-width:2px;'>";
+						tr+="<td style='padding: 10px 10px;'>"+inv.vendorid+"</td>";
+						tr+="<td style='padding: 10px 10px;'>"+inv.customerid+"</td>";
+						tr+="<td style='padding: 10px 10px;'>"+inv.invoicenumber+"</td>";
+						tr+="<td style='padding: 10px 10px;'>"+inv.invoiceamount+"</td>";
+						tr+="<td style='padding: 10px 10px;'>"+inv.currency+"</td>";
+						tr+="<td style='padding: 10px 10px;'>"+inv.material+"</td>";
+						tr+="<td style='padding: 10px 10px;'>"+inv.quantity+"</td>";
+						tr+="<td style='padding: 10px 10px;'>"+inv.tradeid+"</td>";
+						tr+="<td style='padding: 10px 10px;'>"+inv.paymentdate+"</td>";
+						tr+="<td style='padding: 10px 10px;'>"+inv.status+"</td>";
+						tr+="<td style='padding: 10px 10px;'>"+inv.newpaymentdate+"</td>";
+						tr+="</tr>";
+					tbody.append(tr);
+				});
+			}else{
+				tbody.append("<tr><th colspan='11'>No data to display.</th></tr>");
+			}
+
+		}
+		function toggleSubPanels(parent, show, callback){
+			console.info('parent: '+parent + ' -> ' + 'show :--> ' + show);
+			if(parent && (!show || show == '')) 
+				show = parent+'-list';
+			else
+				show = parent+'-'+show;
+			
+			$("#"+parent+"Panel").children().hide(); //.find(".subpanel").hide();
+			if($("#" + show + "Panel").length == 0){
+				$("#error404").fadeIn();
+			}else{
+				$("#" + show + "Panel").fadeIn(300);
+			}
+			callback && callback();
+		}
+		
+// --------------- Navigation Bar  -------------- //
+block navpanel
+	include ./template/nav_part3.jade
+	
+	
+// --------------- Main Stuff  -------------- //
+block content
+	#contentPanel
+		
+		#blockdate(title="date of last block") loading...
+		
+		// --------------- Home Panel
+		include ./panel_esm_home.jade
+		
+		// --------------- Invoice Panel
+		include ./panel_esm_invoice.jade
+		
+		// --------------- Payment Panel
+		include ./panel_esm_payment.jade
+		
+		// --------------- Customer Panel
+		include ./panel_esm_customer.jade
+		
+block footer
+	include ./template/blockchain.jade

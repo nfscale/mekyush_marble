@@ -1,0 +1,27 @@
+#invoice-listPanel.panel.subpanel
+	h1 Invoices 
+	hr
+	#actionButtons(style="text-align:right;")
+		button(type="button",parent="invoice",show="create")#btnCreateInvoice.toggleButton
+			span.fa.fa-plus-circle &nbsp;&nbsp;
+			span CREATE
+	hr
+	#invoiceListContent
+		table(style="width:100%")
+			thead
+				tr
+					th Vendor ID
+					th Customer ID
+					th Invoice Number
+					th Invoice Amount
+					th Currency
+					th Material
+					th Quantity
+					th Trade ID
+					th Payment Date
+					th Status
+					th New Payment Date
+			tbody#invoicesList
+				
+					
+			

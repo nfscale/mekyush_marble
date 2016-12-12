@@ -51,8 +51,20 @@ html
 						$("#" + show + "Panel").fadeIn(300);
 						$(".selectedNav").removeClass("selectedNav");
 						$(this).addClass("selectedNav");
+						toggleSubPanels(show);
 					}
 				}
+				/*
+				function toggleSubPanels(parent, show){
+					console.info('show :--> ' + show);
+					if(parent && (!show || show == '')) show = parent+'-list';	
+					$("#"+parent+".subpanel").hide();
+					if($("#" + show + "Panel").length == 0){
+						$("#error404").fadeIn();
+					}else{
+						$("#" + show + "Panel").fadeIn(300);
+					}
+				}*/
 				
 				//Blockchain panel toggle
 				$("#viewBCWrap").click(function(){
